@@ -14,13 +14,14 @@ header nav{
     flex-wrap: nowrap;
     
 }
-.logo-class{
+div.logo-class img{
     margin: 12px;
     height: 5rem;
     width: 5rem;
     border: 2px solid black;
     border-radius: 50%;
     text-align: center;
+    display: inline;
 
 }
 div.menu{
@@ -35,7 +36,10 @@ select{
 h1.heading{
     margin: auto;
     font-weight: bolder;
-    ;
+    font-size: xxx-large;
+    font-family: "Roboto", system-ui;
+    font-weight: 700;
+    font-style: normal;
 }
 nav ul {
     list-style-type: none;
