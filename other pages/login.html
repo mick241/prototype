@@ -5,10 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
 </head>
 <body>
 
 <header>
+    <nav>
+        <div class="logo-class">
+            <img src="images util/logo.jpeg" alt="logo">
+        </div>
+        <div class="menu">
+            <select name="Menu" id="menu">
+                <option value="Menu">Menu</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <h1 class="heading">SMART ROUTE</h1>
+        <ul>
+            <li><a href="other pages/members.html">Our Team</a></li>
+            <li><a href="#service_users">Our Users</a></li>
+            <li><a href="contact_us">Contact Us</a></li>
+        </ul>
+    </nav>
     <h1>Login</h1>
 </header>
 
@@ -34,11 +54,12 @@
         </div>
         
         <div class="form-group">
-            <label for="password">Password</label>
             <div class="password-container">
-                <input type="password" id="password" name="password" required>
-                <button type="button" id="toggle-password">Show</button>
-            </div>
+                    <input type="password" id="password" name="password" required>
+                    <div class="show">
+                        <button type="button" id="toggle-password">Show</button>
+                    </div>
+                </div>
         </div>
         
     
@@ -67,6 +88,7 @@
         event.preventDefault(); 
         window.location.href = 'index.html';
     });
+    
 </script>
 
 </body>

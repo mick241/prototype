@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Smart Route</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo-class">
+                <img src="images util/main logo.jpeg" alt="logo">
+            </div>
+            <div class="menu">
+                <select name="Menu" id="menu">
+                    <option value="Menu">Menu</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <h1 class="heading">SMART ROUTE</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="other pages/members.html">Our Team</a></li>
+                <li><a href="#service_users">Our Users</a></li>
+                <li><a href="contact_us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- slider container -->
+    <div class="slider">
+        <div class="slides">
+            <!-- Image 1 -->
+            <div class="slide">
+                <img src="images util/logo.jpeg" alt="Slide 1">
+            </div>
+            <!-- Image 2 -->
+            <div class="slide">
+                <img src="images util/main logo.jpeg" alt="Slide 2">
+            </div>
+            <!-- Image 3 -->
+            <div class="slide">
+                <img src="images util/logo.jpeg" alt="Slide 3">
+            </div>
+        </div>
+    
+        <!-- Next and Previous buttons -->
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    
+
+    <main>
+        <div class="main-container">
+            <section class="about-section">
+                <h1>About Us</h1>
+                <p>
+                    Smart Route is dedicated to improving emergency response times by creating smarter, faster, and more efficient pathways for emergency vehicles in congested urban areas. Traffic delays often prevent ambulances, fire trucks, and police cars from reaching their destinations in time, leading to tragic consequences. Smart Route’s system uses real-time data, GPS tracking, and notifications to alert drivers and traffic lights about approaching emergency vehicles, helping clear the way and reducing delays.
+
+                    Key features include emergency vehicle detection, real-time alerts to drivers and traffic systems, and integration with city traffic lights to create smoother routes. In addition to technology, Smart Route raises public awareness about the importance of giving way to emergency vehicles. By reducing response times, Smart Route aims to save lives, improve traffic management, and empower cities with smarter infrastructure.
+
+                    The vision is to integrate Smart Route into cities worldwide, ensuring that no life is lost due to traffic delays in emergencies. </p> 
+            </section>                   
+            
+            <div class="login-register">
+                <p>Already have an account? <a href="other pages/login.html">Login</a></p>
+                <p>New user? <a href="other pages/register.html" >Register here</a></p>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <h2>Smart Route</h2>
+        <p>&copy; 2024 Smart Route. All rights reserved.</p>
+        
+        <hr> <!-- Line separating the content -->
+        <div class="footer-list">
+            <nav>
+                <a href="terms-and-conditions.html">Terms and Conditions</a> |
+                <a href="privacy-statements.html">Privacy Statements</a> |
+                <a href="about-us.html">About Us</a> |
+                <a href="contactus.html">Contact Us</a> |
+                <a href="feedback.html">Feedback</a> |
+                <a href="privacy-policy.html">Privacy Policy</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
