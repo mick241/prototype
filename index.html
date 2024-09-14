@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +17,7 @@
     <header>
         <nav>
             <div class="logo-class">
-                <img src="images util/logo.jpeg" alt="logo">
+                <img src="images util/main logo.jpeg" alt="logo">
             </div>
             <div class="menu">
                 <select name="Menu" id="menu">
@@ -34,6 +35,30 @@
             </ul>
         </nav>
     </header>
+
+    <!-- slider container -->
+    <div class="slider">
+        <div class="slides">
+            <!-- Image 1 -->
+            <div class="slide">
+                <img src="images util/logo.jpeg" alt="Slide 1">
+            </div>
+            <!-- Image 2 -->
+            <div class="slide">
+                <img src="images util/main logo.jpeg" alt="Slide 2">
+            </div>
+            <!-- Image 3 -->
+            <div class="slide">
+                <img src="images util/logo.jpeg" alt="Slide 3">
+            </div>
+        </div>
+    
+        <!-- Next and Previous buttons -->
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    
+
     <main>
         <div class="main-container">
             <section class="about-section">
