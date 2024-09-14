@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+</head>
+<body>
+
+<header>
+    <h1>Login</h1>
+</header>
+
+<div class="login-container">
+    <form id="login-form">
+        <h2>Login to Your Department</h2>
+        
+        <div class="form-group">
+            <label for="department-type">Department Type</label>
+            <select id="department-type" name="department-type" required>
+                <option value="Select">Select</option>
+                <option value="hospital">Hospital</option>
+                <option value="fire-department">Fire Department</option>
+                <option value="police">Police</option>
+                <option value="ems">Emergency Medical Services</option>
+                
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="department-name">Department Name</label>
+            <input type="text" id="department-name" name="department-name" required>
+        </div>
+        
+        <div class="form-group">
+            <div class="password-container">
+                    <input type="password" id="password" name="password" required>
+                    <div class="show">
+                        <button type="button" id="toggle-password">Show</button>
+                    </div>
+                </div>
+        </div>
+        
+    
+        <button type="submit">Login</button>
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2024 Smart Route. All rights reserved.</p>
+</footer>
+
+<script>
+    document.getElementById('toggle-password').addEventListener('click', function() {
+        const passwordField = document.getElementById('password');
+        const toggleButton = document.getElementById('toggle-password');
+        if (passwordField.type === 'password') {
+            passwordField.type = 'text';
+            toggleButton.textContent = 'Hide';
+        } else {
+            passwordField.type = 'password';
+            toggleButton.textContent = 'Show';
+        }
+    });
+
+    document.getElementById('login-form').addEventListener('submit', function(event) {
+        event.preventDefault(); 
+        window.location.href = 'index.html';
+    });
+</script>
+
+</body>
+</html>
