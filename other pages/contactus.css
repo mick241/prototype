@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:#caf0f8;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+div.logo-class img{
+    margin: 12px;
+    height: 5rem;
+    width: 5rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+    display: inline;
+
+}
+div.menu{
+    margin: auto 15px;
+}
+select{
+    background-color: #caf0f8;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+}
+h1.heading{
+    margin: auto;
+    font-weight: bolder;
+    font-size: xxx-large;
+    font-family: "Roboto", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+nav ul {
+    list-style-type: none;
+    font-size: large;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+nav ul li{
+    margin-top: 6px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* General styling for the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styling */
+header {
+    background-color: #008cba;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Contact form container styling */
+.contact-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+/* Form styling */
+form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Form heading styling */
+form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus {
+    border-color: #008cba;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Button styling */
+button {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005f6a;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: auto;
+}

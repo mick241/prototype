@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    
+    <nav>
+        <div class="logo-class">
+            <img src="images util/logo.jpeg" alt="logo">
+        </div>
+        <div class="menu">
+            <select name="Menu" id="menu">
+                <option value="Menu">Menu</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            </div>
+        <h1 class="heading">SMART ROUTE</h1>
+        <ul>
+            <li><a href="other pages/members.html">Our Team</a></li>
+            <li><a href="#service_users">Our Users</a></li>
+            <li><a href="contact_us">Contact Us</a></li>
+        </ul>
+    </nav>
+    <h1>Contact Us</h1>
+</header>
+<section>
+    
+<div class="contact-container">
+    <form id="contact-form">
+        <h2>We’d Love to Hear from You</h2>
+
+        <!-- Name Field -->
+        <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <!-- Email Field -->
+        <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <!-- Phone Number Field -->
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+        </div>
+
+        <!-- Subject Field -->
+        <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
+
+        <!-- Message Field -->
+        <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <!-- Queries Field -->
+        <div class="form-group">
+            <label for="queries">Additional Queries</label>
+            <textarea id="queries" name="queries" rows="4" placeholder="Enter any additional queries here"></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Smart Route. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
